@@ -1,0 +1,133 @@
+📱 RAGE DEVIL APK - QUICK BUILD GUIDE
+
+================================================================================
+PREREQUISITES (One-Time Setup)
+================================================================================
+
+1. Download & Install Android Studio
+   https://developer.android.com/studio
+
+2. Install Java JDK 11+
+   https://www.oracle.com/java/technologies/downloads/
+
+3. Set Android SDK Path (after Android Studio install):
+   Windows: setx ANDROID_HOME "%USERPROFILE%\AppData\Local\Android\Sdk"
+   Mac/Linux: export ANDROID_HOME=$HOME/Android/Sdk
+
+4. Verify Installation:
+   java -version
+   adb --version
+
+================================================================================
+QUICK BUILD (5 STEPS)
+================================================================================
+
+STEP 1: Build Web App
+  npm run build
+
+STEP 2: Setup Capacitor (First time only)
+  npx cap init
+  → App name: Rage Devil
+  → App ID: com.ragedevil.game
+  → Directory: .
+
+STEP 3: Add Android Support (First time only)
+  npx cap add android
+
+STEP 4: Sync Files
+  npx cap sync android
+
+STEP 5: Build APK
+  cd android
+  ./gradlew assembleDebug
+  cd ..
+
+DONE! Your APK is at:
+  android/app/build/outputs/apk/debug/app-debug.apk
+
+================================================================================
+INSTALL ON DEVICE
+================================================================================
+
+Method 1: USB Cable (Recommended)
+  adb install android/app/build/outputs/apk/debug/app-debug.apk
+
+Method 2: Manual
+  1. Copy app-debug.apk to your phone
+  2. Open file manager on phone
+  3. Tap the APK
+  4. Click Install
+
+Method 3: Emulator
+  Android Studio → Create Virtual Device → Run emulator
+  adb install android/app/build/outputs/apk/debug/app-debug.apk
+
+================================================================================
+APK SIZE & SPECS
+================================================================================
+
+Size: ~3-4 MB
+Android: 6.0+ required
+Architecture: ARM64
+Screens: All sizes supported
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "adb command not found"
+Solution: Add to PATH: $ANDROID_HOME/platform-tools
+
+Problem: "ANDROID_HOME not set"
+Solution: 
+  Windows: setx ANDROID_HOME "C:\Users\YourName\AppData\Local\Android\Sdk"
+  Mac/Linux: export ANDROID_HOME=$HOME/Android/Sdk
+
+Problem: "Gradle build failed"
+Solution:
+  cd android
+  ./gradlew clean
+  ./gradlew assembleDebug
+  cd ..
+
+Problem: "Build succeeded but APK not found"
+Solution: Check: android/app/build/outputs/apk/debug/app-debug.apk
+
+================================================================================
+AFTER BUILDING APK
+================================================================================
+
+✅ Share with Friends
+  • Email the APK
+  • Upload to Google Drive
+  • Send via messaging apps
+  • Friends tap APK on their Android phone to install
+
+✅ Upload to Google Play Store (Optional)
+  • Create Play Developer Account ($25 one-time)
+  • Build Release APK (see APK_BUILD_GUIDE.md)
+  • Upload to Play Store
+  • Your game goes live for 2+ billion Android users!
+
+================================================================================
+FULL COMMAND SEQUENCE (COPY & PASTE)
+================================================================================
+
+npm run build
+npx cap init
+npx cap add android
+npx cap sync android
+cd android
+./gradlew assembleDebug
+cd ..
+
+Your APK: android/app/build/outputs/apk/debug/app-debug.apk
+
+================================================================================
+THAT'S IT! YOUR APK IS READY! 🎮
+================================================================================
+
+Choose your installation method above and get gaming!
+
+Need help? See APK_BUILD_GUIDE.md for detailed instructions.
+

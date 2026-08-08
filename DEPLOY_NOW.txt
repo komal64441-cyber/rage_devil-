@@ -1,0 +1,78 @@
+🎮 RAGE DEVIL - PUBLIC GAME LINK
+
+================================================================================
+QUICKEST WAY TO GET YOUR GAME ONLINE (2 MINUTES)
+================================================================================
+
+STEP 1: Go to https://vercel.com
+STEP 2: Click "Sign Up" → "Continue with GitHub"
+STEP 3: Click "New Project" 
+STEP 4: Import your "rage-devil" repository
+STEP 5: Click "Deploy"
+STEP 6: WAIT 1-2 MINUTES
+STEP 7: ✅ YOUR LINK IS READY!
+
+================================================================================
+YOUR PUBLIC LINK WILL BE:
+================================================================================
+https://rage-devil.vercel.app
+(or similar, provided by Vercel)
+
+================================================================================
+ALTERNATIVES (IF VERCEL DOESN'T WORK):
+================================================================================
+
+NETLIFY:
+1. Visit https://netlify.com
+2. Click "New site from Git"
+3. Select your repo
+4. Deploy!
+Link: https://rage-devil.netlify.app
+
+GITHUB PAGES:
+1. Push code to GitHub
+2. Settings → Pages → GitHub Actions
+3. Wait 5 minutes
+Link: https://YOUR-USERNAME.github.io/rage-devil/
+
+================================================================================
+AFTER DEPLOYING:
+================================================================================
+
+1. Copy your link
+2. Send it to friends
+3. Watch them suffer 😈
+4. They can also use the in-game "Copy Link" button to share with others
+
+================================================================================
+THE GAME IS PRODUCTION-READY!
+================================================================================
+
+✅ 34 levels
+✅ All mechanics working
+✅ Touch + keyboard controls
+✅ Death counter
+✅ No external files needed
+✅ Works on mobile/desktop
+
+Just need to deploy to a free host above.
+
+================================================================================
+SHARE YOUR LINK:
+================================================================================
+
+Discord:     "Try this troll game: [YOUR_LINK]"
+Twitter:     "Made a 34-level troll platformer: [YOUR_LINK]"
+WhatsApp:    "Play this and tell me your death count 💀 [YOUR_LINK]"
+TikTok:      "Can you beat this? [YOUR_LINK]"
+Reddit:      "r/IndieGaming - Made Rage Devil: [YOUR_LINK]"
+
+================================================================================
+THAT'S IT! YOU'RE DONE! 🚀
+================================================================================
+
+Choose Vercel, Netlify, or GitHub Pages and you'll have a public link in 2-5 minutes.
+
+Your game will be live forever and accessible to anyone with the link.
+
+DEPLOY NOW! 🎮

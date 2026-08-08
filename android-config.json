@@ -1,0 +1,29 @@
+{
+  "appId": "com.ragedevil.game",
+  "appName": "Rage Devil",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "minWebViewVersion": 37,
+    "buildToolsVersion": "34.0.0",
+    "compileSdkVersion": 34,
+    "targetSdkVersion": 34,
+    "minSdkVersion": 21
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "backgroundColor": "#05060a",
+      "showSpinner": false
+    },
+    "AdMob": {
+      "appId": "ca-app-pub-4680298321698683~9266585690",
+      "bannerAdUnitId": "ca-app-pub-4680298321698683/2074082268",
+      "interstitialAdUnitId": "ca-app-pub-4680298321698683/2074082268"
+    }
+  }
+}
